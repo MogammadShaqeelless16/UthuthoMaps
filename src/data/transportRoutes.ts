@@ -1,0 +1,152 @@
+export const transportRoutes = {
+  taxi: [
+    {
+      id: 'taxi-1',
+      name: 'CBD to Soweto',
+      origin: [-26.2041, 28.0473],
+      destination: [-26.2485, 27.8546],
+    },
+    {
+      id: 'taxi-2',
+      name: 'Sandton to Alexandra',
+      origin: [-26.1067, 28.0567],
+      destination: [-26.1071, 28.1021],
+    },
+    {
+      id: 'taxi-3',
+      name: 'Midrand to Tembisa',
+      origin: [-25.9976, 28.1265],
+      destination: [-25.9989, 28.217],
+    },
+    {
+      id: 'taxi-4',
+      name: 'Johannesburg to Diepsloot',
+      origin: [-26.2041, 28.0473],
+      destination: [-25.9392, 28.0123],
+    },
+    {
+      id: 'taxi-5',
+      name: 'CBD to Braamfontein',
+      origin: [-26.2041, 28.0473],
+      destination: [-26.1926, 28.034],
+    },
+    {
+      id: 'taxi-6',
+      name: 'Randburg to Fourways',
+      origin: [-26.0963, 28.0063],
+      destination: [-26.0043, 28.0118],
+    },
+    {
+      id: 'taxi-7',
+      name: 'Kempton Park to Boksburg',
+      origin: [-26.0965, 28.2349],
+      destination: [-26.2151, 28.259],
+    },
+    {
+      id: 'taxi-8',
+      name: 'Hillbrow to Yeoville',
+      origin: [-26.1881, 28.0576],
+      destination: [-26.1737, 28.0629],
+    },
+    {
+      id: 'taxi-9',
+      name: 'CBD to Fordsburg',
+      origin: [-26.2041, 28.0473],
+      destination: [-26.2036, 28.0243],
+    },
+    {
+      id: 'taxi-10',
+      name: 'Rosebank to Hyde Park',
+      origin: [-26.1421, 28.0413],
+      destination: [-26.1342, 28.0282],
+    },
+  ],
+  bus: [
+    {
+      id: 'bus-1',
+      name: 'Pretoria to Johannesburg',
+      origin: [-25.7479, 28.2293],
+      destination: [-26.2041, 28.0473],
+    },
+    {
+      id: 'bus-2',
+      name: 'Soweto to Randburg',
+      origin: [-26.2485, 27.8546],
+      destination: [-26.0963, 28.0063],
+    },
+    {
+      id: 'bus-3',
+      name: 'Eastgate to Bedfordview',
+      origin: [-26.1788, 28.1234],
+      destination: [-26.1764, 28.1447],
+    },
+    {
+      id: 'bus-4',
+      name: 'Benoni to Kempton Park',
+      origin: [-26.1931, 28.3203],
+      destination: [-26.0965, 28.2349],
+    },
+    {
+      id: 'bus-5',
+      name: 'Roodepoort to Johannesburg',
+      origin: [-26.1625, 27.8724],
+      destination: [-26.2041, 28.0473],
+    },
+    {
+      id: 'bus-6',
+      name: 'Midrand to Fourways',
+      origin: [-25.9976, 28.1265],
+      destination: [-26.0043, 28.0118],
+    },
+    {
+      id: 'bus-7',
+      name: 'Braamfontein to Sandton',
+      origin: [-26.1926, 28.034],
+      destination: [-26.1067, 28.0567],
+    },
+    {
+      id: 'bus-8',
+      name: 'Krugersdorp to Randburg',
+      origin: [-26.1006, 27.8024],
+      destination: [-26.0963, 28.0063],
+    },
+  ],
+  train: [
+    {
+      id: 'train-1',
+      name: 'Gautrain Sandton to OR Tambo',
+      origin: [-26.1067, 28.0567],
+      destination: [-26.1367, 28.2301],
+    },
+    {
+      id: 'train-2',
+      name: 'Johannesburg Park Station to Pretoria',
+      origin: [-26.1972, 28.0416],
+      destination: [-25.7509, 28.1987],
+    },
+    {
+      id: 'train-3',
+      name: 'Soweto to Johannesburg',
+      origin: [-26.2485, 27.8546],
+      destination: [-26.2041, 28.0473],
+    },
+    {
+      id: 'train-4',
+      name: 'Kempton Park to Pretoria',
+      origin: [-26.0965, 28.2349],
+      destination: [-25.7509, 28.1987],
+    },
+    {
+      id: 'train-5',
+      name: 'Centurion to Johannesburg',
+      origin: [-25.8602, 28.1909],
+      destination: [-26.2041, 28.0473],
+    },
+    {
+      id: 'train-6',
+      name: 'Rosebank to Sandton',
+      origin: [-26.1421, 28.0413],
+      destination: [-26.1067, 28.0567],
+    },
+  ],
+};
